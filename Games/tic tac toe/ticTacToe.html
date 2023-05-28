@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS file link -->
+     <link rel="stylesheet" type="text/css" href="ticTacToe.css">
+
+     <!-- JavaScript file link -->
+     <script src="ticTacToe.js"></script>
+
+</head>
+<body>
+
+    <!--Game instructions-->
+    <div id="main">
+        <h2>Tic Tac Toe</h2>
+        <p id="instruction">The game starts with one of the players clicking on the block on the screen. There are two types of sympbol to play with, "cross" and "circle". The first first player to make three symbols in a row wins.
+        First player starts as <b>Player 1</b> and second player starts as <b>Player 2</b> </p>
+
+        <br>
+
+        <!-- Designing the grid of boxes -->
+        <input type="text" id="a" onclick="myFun_2(); boxFunction();" readonly>
+        <input type="text" id="b" onclick="myFun_3(); boxFunction();" readonly>
+        <input type="text" id="c" onclick="myFun_4(); boxFunction();" readonly>
+
+        <br><br>
+
+        <input type="text" id="d" onclick="myFun_5(); boxFunction()" readonly>
+        <input type="text" id="e" onclick="myFun_6(); boxFunction();" readonly>
+        <input type="text" id="f" onclick="myFun_7(); boxFunction()" readonly>
+
+        <br><br>
+
+        <input type="text" id="g" onclick="myFun_8(); boxFunction();" readonly>
+        <input type="text" id="h" onclick="myFun_9(); boxFunction();" readonly>
+        <input type="text" id="i" onclick="myFun_10();
+        boxFunction();" readonly>
+
+        <br><br>
+
+        <!-- reset game -->
+        <button id="resetbutton" onclick="myFun_1()">Reset</button>
+
+        <br><br>
+        <!-- Player turn -->
+        <p id="result"></p>
+
+    </div>
+    
+</body>
+</html>

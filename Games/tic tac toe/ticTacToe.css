@@ -1,0 +1,58 @@
+/*Heading*/
+h2 {
+    color: beige;
+    font-size: 45px;
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+/* Game Instructions */
+#instruction {
+    font-family: cursive;
+    color: blanchedalmond;
+    font-size: 21;
+    background-color: cadetblue;
+}
+
+/* 3*3 Grid */
+#a, #b, #c, #d, #e, #f, #g, #h, #i {
+    width: 89px;
+    height: 55px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    background-color: wheat;
+}
+
+/* Player turn space */
+#result {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    font-size: 21px;
+}
+
+/* main container */
+#main {
+    text-align: center;
+    background-color:coral;
+}
+
+/* Reset Button */
+#resetbutton {
+    box-sizing: border-box;
+    width: 144px;
+    height: 55px;
+    border: 2px solid salmon;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color:thistle;
+    color: aliceblue;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
