@@ -3,7 +3,7 @@ let gridButton = document.getElementById("submit-grid");
 let clearGridButton = document.getElementById("clear-grid");
 let gridWidth = document.getElementById("width-range");
 let gridHeight = document.getElementById("height-range");
-let colortButton = document.getElementById("color-input");
+let colorButton = document.getElementById("color-input");
 let eraseBtn = document.getElementById("erase-btn");
 let paintBtn = document.getElementById("paint-btn");
 let widthValue = document.getElementById("width-value");
@@ -58,7 +58,7 @@ gridButton.addEventListener("click", () => {
         if (erase) {
           col.style.backgroundColor = "transparent";
         } else {
-          col.style.backgroundColor = colortButton.ariaValueMax;
+          col.style.backgroundColor = colorButton.Value;
         }
       });
 
@@ -81,3 +81,16 @@ gridButton.addEventListener("click", () => {
     container.appendChild(div);
   }
 });
+
+function checker(elementId) {
+  let gridColumns = document.querySelectorAll(".gridCol");
+  gridColumns.forEach((element) => {
+    if (elementId == element.id) {
+      if (draw && !erase) {
+        element.style.backgroundColor = colorButton.value;
+      } else if (draw && erase) {
+        element.style.backgroundColor = "transparent";
+      }
+    }
+  });
+}
