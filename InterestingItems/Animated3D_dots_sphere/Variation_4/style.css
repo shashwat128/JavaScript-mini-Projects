@@ -49,31 +49,31 @@ body {
 }
 @keyframes rotate3d {
   0% {
-    transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 0, 0deg);
   }
   12.5% {
-    transform: rotate3d(1, 1, 1, 45deg);
+    transform: rotate3d(0, 1, 1, 45deg);
   }
   25% {
-    transform: rotate3d(1, 1, 1, 90deg);
+    transform: rotate3d(1, 1, 0, 90deg);
   }
   37.5% {
-    transform: rotate3d(1, 1, 1, 135deg);
+    transform: rotate3d(0, 1, 1, 135deg);
   }
   50% {
-    transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 0, 180deg);
   }
   62.7% {
-    transform: rotate3d(1, 1, 1, 225deg);
+    transform: rotate3d(0, 1, 1, 225deg);
   }
   75% {
-    transform: rotate3d(1, 1, 1, 270deg);
+    transform: rotate3d(1, 1, 0, 270deg);
   }
   87.5% {
-    transform: rotate3d(1, 1, 1, 315deg);
+    transform: rotate3d(0, 1, 1, 315deg);
   }
   100% {
-    transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 0, 360deg);
   }
 }
 @keyframes pulsate {
