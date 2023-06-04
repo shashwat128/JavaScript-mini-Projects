@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(#1b0101, #1f2002);
+}
+
+canvas {
+  margin: 2em 0 0;
+}
