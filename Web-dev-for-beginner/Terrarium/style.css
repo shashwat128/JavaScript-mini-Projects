@@ -97,7 +97,7 @@ h1 {
   background: #ddfbff;
   position: absolute;
   bottom: 20%;
-  left: 50%;
+  left: 5%;
   transform: translateX(-50%);
 }
 
@@ -108,6 +108,6 @@ h1 {
   background: #ddfbff;
   position: absolute;
   bottom: 45%;
-  left: 50%;
+  left: 5%;
   transform: translateX(-50%);
 }
