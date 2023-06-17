@@ -1,17 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: antiquewhite;
-  color: cadetblue;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(212, 133, 30);
+  color: rgb(229, 170, 97);
   overflow-x: hidden;
   margin: 0;
 }
 
 .container {
-  background-color: azure;
+  background-color: #2e6360;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -19,7 +21,7 @@ body {
   padding: 50px;
 }
 
-.container .show-nav {
+.container.show-nav {
   transform: rotate(-20deg);
 }
 
@@ -30,7 +32,7 @@ body {
 }
 
 .circle {
-  background-color: rgb(145, 207, 211);
+  background-color: #ff7777;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -38,7 +40,7 @@ body {
   transition: transform 0.5s linear;
 }
 
-.container .show-nav .circle {
+.container.show-nav .circle {
   transform: rotate(-70deg);
 }
 
@@ -51,7 +53,7 @@ body {
   background: transparent;
   border: 0;
   font-size: 26px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .circle button:focus {
@@ -69,7 +71,7 @@ body {
 }
 
 .container.show-nav + nav li {
-  transform: translate(0);
+  transform: translateX(0);
   transition-delay: 0.3s;
 }
 
@@ -87,7 +89,7 @@ nav ul {
 
 nav ul li {
   text-transform: uppercase;
-  color: #fff;
+  color: #75ffff;
   margin: 40px 0;
   transform: translateX(-100%);
   transition: transform 0.4s ease-in;
@@ -109,7 +111,7 @@ nav ul li + li + li {
 }
 
 nav a {
-  color: #efe9e9;
+  color: #fafafa;
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -133,11 +135,11 @@ nav a:hover {
 }
 
 .content small {
-  color: #555;
+  color: #ff0000;
   font-style: italic;
 }
 
 .content p {
-  color: #b67e62;
+  color: #ffc4c4;
   line-height: 1.5;
 }
